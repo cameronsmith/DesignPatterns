@@ -28,4 +28,4 @@ class OutOfMoney implements ATMState
 **Note:** To change the pointer to new state can be done within the separate states or within the context itself. In 
 this example it is done within the states themselves.
 
-![State Pattern](Uml/state-pattern.svg?raw=true "State Pattern")
+![State Pattern](Uml/state-pattern.svg "State Pattern")
