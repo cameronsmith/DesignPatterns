@@ -1,0 +1,30 @@
+{
+  "name": "ukcasmith/design-patterns",
+  "description": "A collection of design patterns",
+  "keywords" : ["design patterns", "ukcasmith"],
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Cameron Smith"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "support": {
+    "source": "https://github.com/uk-casmith/DesignPatterns"
+  },
+  "autoload": {
+    "psr-4": {
+      "UKCASmith\\DesignPatterns\\": "src/"
+    },
+    "classmap": [
+      "tests/"
+    ]
+  },
+  "version": "0.0.1",
+  "require-dev": {
+    "phpunit/phpunit": "^6.4"
+  }
+}
