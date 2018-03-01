@@ -4,4 +4,5 @@ A collection of Design Patterns
 ## Creational Patterns
 ## Structural Patterns
 ## Behavioral Patterns
-[State Pattern](src/Behavioral/State/README.md)
+- [Chain of Responsibility Pattern](src/Behavioral/ChainOfResponsibility/README.md)
+- [State Pattern](src/Behavioral/State/README.md)
