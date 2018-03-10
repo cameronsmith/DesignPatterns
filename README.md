@@ -9,3 +9,4 @@ A collection of Design Patterns
 - [Chain of Responsibility Pattern](src/Behavioral/ChainOfResponsibility/README.md)
 - [State Pattern](src/Behavioral/State/README.md)
 - [Strategy Pattern](src/Behavioral/Strategy/README.md)
+- [Template Pattern](src/Behavioral/Template/README.md)
