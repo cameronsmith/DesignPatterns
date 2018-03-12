@@ -1,6 +1,7 @@
 <?php namespace UKCASmith\DesignPatterns\Behavioral\Observer\Observers;
 
 use UKCASmith\DesignPatterns\Behavioral\Observer\Contracts\Observer;
+use UKCASmith\DesignPatterns\Behavioral\Observer\Logger;
 
 class SendEmail implements Observer
 {
@@ -21,6 +22,6 @@ class SendEmail implements Observer
      */
     public function handle()
     {
-        echo $this->message;
+        Logger::setLogger($this->message);
     }
 }
