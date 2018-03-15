@@ -7,6 +7,7 @@ A collection of Design Patterns
 - [Decorator Pattern](src/Structural/Decorator/README.md)
 ## Behavioral Patterns
 - [Chain of Responsibility Pattern](src/Behavioral/ChainOfResponsibility/README.md)
+- [Command Pattern](src/Behavioral/Command/README.md)
 - [Observer Pattern](src/Behavioral/Observer/README.md)
 - [State Pattern](src/Behavioral/State/README.md)
 - [Strategy Pattern](src/Behavioral/Strategy/README.md)
