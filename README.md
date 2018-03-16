@@ -2,6 +2,7 @@
 A collection of Design Patterns
 
 ## Creational Patterns
+- [Factory Method Pattern](src/Creational/FactoryMethod/README.md)
 ## Structural Patterns
 - [Adapter Pattern](src/Structural/Adapter/README.md)
 - [Decorator Pattern](src/Structural/Decorator/README.md)
