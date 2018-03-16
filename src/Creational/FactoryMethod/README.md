@@ -11,4 +11,4 @@ $shipper = ShipperFactory::make(ShipperFactory::UPS);
 $shipper = ShipperFactory::make(ShipperFactory::FEDEX);
 ```
 
-![Factory Method Pattern](Uml/Observer.svg "Factory Method")
+![Factory Method Pattern](Uml/FactoryMethod.svg "Factory Method")
