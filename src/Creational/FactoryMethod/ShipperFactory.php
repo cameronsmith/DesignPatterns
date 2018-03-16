@@ -3,8 +3,9 @@
 use UKCASmith\DesignPatterns\Creational\FactoryMethod\Exceptions\InvalidShipperRequestedException;
 use UKCASmith\DesignPatterns\Creational\FactoryMethod\Shippers\Ups;
 use UKCASmith\DesignPatterns\Creational\FactoryMethod\Shippers\Fedex;
+use UKCASmith\DesignPatterns\Creational\FactoryMethod\Contracts\Factory;
 
-class ShipperFactory
+class ShipperFactory implements Factory
 {
     const UPS = 1;
     const FEDEX = 2;
