@@ -8,6 +8,7 @@ A collection of Design Patterns
 - [Adapter Pattern](src/Structural/Adapter/README.md)
 - [Decorator Pattern](src/Structural/Decorator/README.md)
 - [Facade Pattern](src/Structural/Facade/README.md)
+- [Proxy Pattern](src/Structural/Proxy/README.md)
 ## Behavioral Patterns
 - [Chain of Responsibility Pattern](src/Behavioral/ChainOfResponsibility/README.md)
 - [Command Pattern](src/Behavioral/Command/README.md)
