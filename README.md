@@ -6,6 +6,7 @@ A collection of Design Patterns
 - [Factory Method Pattern](src/Creational/FactoryMethod/README.md)
 ## Structural Patterns
 - [Adapter Pattern](src/Structural/Adapter/README.md)
+- [Bridge Pattern](src/Structural/Bridge/README.md)
 - [Decorator Pattern](src/Structural/Decorator/README.md)
 - [Facade Pattern](src/Structural/Facade/README.md)
 - [Proxy Pattern](src/Structural/Proxy/README.md)
