@@ -4,6 +4,7 @@ A collection of Design Patterns
 ## Creational Patterns
 - [Abstract Factory Pattern](src/Creational/AbstractFactory/README.md)
 - [Factory Method Pattern](src/Creational/FactoryMethod/README.md)
+- [Singleton Pattern](src/Creational/Singleton/README.md)
 ## Structural Patterns
 - [Adapter Pattern](src/Structural/Adapter/README.md)
 - [Bridge Pattern](src/Structural/Bridge/README.md)
