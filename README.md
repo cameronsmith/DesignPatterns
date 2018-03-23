@@ -19,3 +19,4 @@ A collection of Design Patterns
 - [State Pattern](src/Behavioral/State/README.md)
 - [Strategy Pattern](src/Behavioral/Strategy/README.md)
 - [Template Pattern](src/Behavioral/Template/README.md)
+- [Visitor Pattern](src/Behavioral/Visitor/README.md)
