@@ -35,4 +35,4 @@ public function accept(Visitor $visitor)
 }
 ```
 
-![Visitor Pattern](Uml/Visitor.svg "Visitor")
+![Visitor Pattern](Uml/Visitor.png "Visitor")
