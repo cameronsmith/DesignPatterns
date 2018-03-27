@@ -32,7 +32,7 @@ public function addEdiDocuments()
 }
 ```
 
-So when the `Director` class method `build` is called it creates an object:
+So when the `Director` class method `build` is called it creates an object custom to the builder:
 
 **Director**
 ```
