@@ -10,4 +10,4 @@ In the composite pattern an individual object or collection, "composite", of tha
 
 In our example the common method between our `Collection` class and `Data` class is the `get()` method.
 
-![Composite Pattern](Uml/Composite.svg "Composite")
+![Composite Pattern](Uml/Composite.png "Composite")
