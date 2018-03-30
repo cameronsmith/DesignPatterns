@@ -10,6 +10,7 @@ A collection of Design Patterns
 ## Structural Patterns
 - [Adapter Pattern](src/Structural/Adapter/README.md)
 - [Bridge Pattern](src/Structural/Bridge/README.md)
+- [Composite Pattern](src/Structural/Composite/README.md)
 - [Decorator Pattern](src/Structural/Decorator/README.md)
 - [Facade Pattern](src/Structural/Facade/README.md)
 - [Proxy Pattern](src/Structural/Proxy/README.md)
