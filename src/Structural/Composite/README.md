@@ -8,6 +8,6 @@ data.
  
 In the composite pattern an individual object or collection, "composite", of that object will have similar behaviours.
 
-In our example the common method between our `Collection` and `data` is the `get()` method.
+In our example the common method between our `Collection` class and `Data` class is the `get()` method.
 
 ![Composite Pattern](Uml/Composite.svg "Composite")
