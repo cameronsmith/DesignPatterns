@@ -13,6 +13,7 @@ A collection of Design Patterns
 - [Composite Pattern](src/Structural/Composite/README.md)
 - [Decorator Pattern](src/Structural/Decorator/README.md)
 - [Facade Pattern](src/Structural/Facade/README.md)
+- [Flyweight Pattern](src/Structural/Flyweight/README.md)
 - [Proxy Pattern](src/Structural/Proxy/README.md)
 ## Behavioral Patterns
 - [Chain of Responsibility Pattern](src/Behavioral/ChainOfResponsibility/README.md)
