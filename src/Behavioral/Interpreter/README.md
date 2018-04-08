@@ -3,11 +3,12 @@
 The Interpreter Pattern solves grammar language by parsing through a tree-like structure like the Composite pattern. 
 The composite part of the pattern is refereed to as:
 
-## Terminal Expression.
+### Terminal Expression.
 A leaf node in the structure
 
-## Compound Expression.
+### Compound Expression.
 A subtree "composite" in the structure.
+
 
 The interpreter pattern is general good when:
 
