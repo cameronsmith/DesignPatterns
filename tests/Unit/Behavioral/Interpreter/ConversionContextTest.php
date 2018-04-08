@@ -21,10 +21,8 @@ class ConversionContextTest extends TestCase
 
         $interpreter = new Interpreter($measurements);
 
-        echo $interpreter->interpret($conversionContext);
-        exit();
+        $conversion = $interpreter->interpret($conversionContext);
 
-
-        $this->assertTrue(true);
+        $this->assertTrue($conversion === '1 kilometer to miles = 1.60934');
     }
 }

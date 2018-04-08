@@ -10,5 +10,5 @@ namespace UKCASmith\DesignPatterns\Behavioral\Interpreter\Contracts;
 
 interface Expression
 {
-    public function solve($context);
+    public function solve(array $context);
 }

@@ -15,21 +15,6 @@ class ConversionContext implements Context
         $this->fromConversion = $this->extractQuantityAndMeasurement($partsOfQuestion);
         $this->toConversion = $this->extractToMeasurement($partsOfQuestion);
 
-        // returns parts of the grammar.
-
-        // 1. create measurementList class
-
-        // 2. create measurement class (miles)
-
-        // 3. create measurement class (yards)
-
-        // 4. add (miles + yards) to measurementList::add
-
-        // 5. create Interpreter class and pass in Measurement Lists.
-
-        // 6. Pass into Interpreter::interpret the ConversionContext.
-
-        // 7. Interpreter::interpret gets conversion and cycles through the measurementList looking for matches.
     }
 
     /**

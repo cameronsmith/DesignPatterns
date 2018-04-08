@@ -43,13 +43,11 @@ class Interpreter implements Interpret
             throw new MissingGrammarException('You must state a measurement to convert to.');
         }
 
-        $measurement = $this->expressions->solve($originalMeasurement);
+        $conversionValue = $quantity * $this->expressions->solve([
+                $originalMeasurement,
+                $destinationMeasurement
+            ]);
 
-        if (!$measurement) {
-            return false;
-        }
-
-        $conversionValue = $quantity * ($measurement->solve($destinationMeasurement));
 
         if ($quantity <= 1 && substr($destinationMeasurement, -1) == 's') {
             $destinationMeasurement = substr($destinationMeasurement, 0, -1);

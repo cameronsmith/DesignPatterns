@@ -10,9 +10,10 @@ abstract class Measurement implements Expression
      * @param $context
      * @return mixed
      */
-    public function solve($context)
+    public function solve(array $context)
     {
-        $lowerCaseContext = (substr($context, -1) === 's') ? strtolower($context) : strtolower($context) . 's';
+        $content = array_shift($context);
+        $lowerCaseContext = (substr($content, -1) === 's') ? strtolower($content) : strtolower($content) . 's';
 
         return $this->{$lowerCaseContext}();
     }

@@ -28,9 +28,9 @@ class Measurements implements CompoundExpression, Expression
      * @param $context
      * @return bool|object
      */
-    public function solve($context)
+    public function solve(array $context)
     {
-        $upperCaseContext = strtoupper($context);
+        $upperCaseContext = strtoupper(array_shift($context));
 
         $className = (substr($upperCaseContext, -1) === 'S') ? $upperCaseContext : $upperCaseContext . 'S';
         foreach($this->expressions as $object) {
@@ -40,7 +40,11 @@ class Measurements implements CompoundExpression, Expression
                 continue;
             }
 
-            return $object;
+            if (count($context) == 0) {
+                continue;
+            }
+
+            return $object->solve($context);
         }
 
         return false;
