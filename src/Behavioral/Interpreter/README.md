@@ -55,7 +55,7 @@ $measurements = (new Measurements)->add($miles)->add($kilometers)->add($meters);
 $interpreter = new Interpreter($measurements);
 ```
 
-![Interpreter Pattern](Uml/Interpreter.gif "Interpreter")
+![Interpreter Pattern](Uml/Interpreter.png "Interpreter")
 
 
 
